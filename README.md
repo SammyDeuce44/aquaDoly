@@ -1,5 +1,5 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+TODO: Implementation of Playwright test framework.
 
 # Getting Started
 1.	Installation process
@@ -14,9 +14,8 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 1. Using Cmder
 - npm init playwright@latest
 - npm install dotenv
-- npm install cross-env
 
 # Build and Test
 1. CLI: npx playwright test
-2. VSCode: Ensure test.describe wrapper is wrapped on Test. debug button will then be available
-3. Right click on a For Loop Test to run individual tests
+2. VSCode: Use the Run test button
+3. Right click on a Run Test button to run individual tests
