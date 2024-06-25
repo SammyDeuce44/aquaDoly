@@ -1,0 +1,26 @@
+{
+  "name": "aquadoly",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript Framework with Playwright Test Runner.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "env:dev": "$env:ENV=dev npx playwright test",
+    "env:test": "$env:ENV=test npx playwright test",
+    "test:staging": "$env:ENV=staging npx playwright test",
+    "env:prod": "$env:ENV=prod npx playwright test"
+  },
+  "keywords": [
+    "playwright test runner",
+    "playwright typescript framework"
+  ],
+  "author": "Samuel Babalola",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
